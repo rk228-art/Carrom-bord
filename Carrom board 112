@@ -1,4 +1,4 @@
-        <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="hi">
 <head>
     <meta charset="UTF-8">
@@ -70,4 +70,25 @@
         }
 
         /* लाल गोटी (Queen) */
+        .queen {
+            width: 20px;
+            height: 20px;
+            background-color: #ff0000; /* लाल रंग */
+            border-radius: 50%;
+            border: 2px solid #fff;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+        }
 
+        /* स्ट्राइकर (अभी इसे सिर्फ बेसलाइन पर दिखाया है) */
+        .striker {
+            width: 35px;
+            height: 35px;
+            background-color: #00ffcc; /* आपका पसंदीदा ग्रीन/येलो/पिंक ऑप्शन हम बाद में जोड़ेंगे */
+            border-radius: 50%;
+            border: 3px solid #009977;
+            position: absolute;
+            bottom: 55px;
+            left: 232px; /* सेंटर में */
+            cursor: pointer;
+            box-shadow: 2px 4px 6px rgba(0,0,0,0.4);
+            transition: transform 0.1
